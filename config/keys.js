@@ -1,3 +1,4 @@
+console.log(process.env);
 if(process.env.NODE_ENV === 'production'){
     //set keys for production
     module.exports = require('./prod')
